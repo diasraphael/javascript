@@ -65,6 +65,38 @@ it has to be the first line of the code.
 it forbids to introduce new errors.  
 it creates visible errors on the developer console otherwise it will fail silently.
 
+#### functions
+
+1. function declaration:
+
+```
+const value = calculate(5) // works
+function calculate(value){
+return value;
+}
+```
+
+we can call the function before the function definition.
+
+2. function expression:
+
+```
+const value = calculate(5) // does not work
+const calulate = function (value){
+return value;
+}
+```
+
+we cannot call the function before the function definition.
+
+3. arrow function:
+
+```
+const calculate = (value)=>value
+```
+
+this keyword is not available in arrow function
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
