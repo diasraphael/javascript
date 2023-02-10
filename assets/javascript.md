@@ -16,6 +16,12 @@ ES2020/ES11
 
 we do not manually define type of the value, instead datatypes are determined automatically in javascript.
 
+2. let,var,const
+
+we cannot reassign using const,using let we can reassign.
+
+var allows adding variables without adding var keyword.(notrecommended)
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
