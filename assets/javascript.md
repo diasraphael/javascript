@@ -34,6 +34,11 @@ Number('Dias') // returns NaN
 
 0, '', undefined, null, NaN
 
+5. == vs ===
+
+=== will check the type and the value(will not perform coercion).prefer always this operator.
+== will perform coercion and checks the value
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
