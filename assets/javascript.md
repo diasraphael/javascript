@@ -6,11 +6,29 @@
 
 ### Releases
 
+Brendan Eich creates Javascript initially called mocha in 10days in 1995  
+mocha changed to livescript in 1996  
+1997 Ecmascript 1: first official standard for javascript  
+2009 Ecmascript 5: released with lot of new features  
+ES2015/ES6: biggest update to the language ever  
+Ecmascript changes to annual release cycle inorder to ship less features per upgrade
+
 ES5  
 ES2015/ES6  
 ES2016/ES7  
 ...  
 ES2020/ES11
+
+#### Backward compatibility:
+
+code written in 1997 put in new browser will work  
+old features are never removed
+
+#### forward compatibility:
+
+code written in ES2089 will not work in current browser.  
+In production we can use transpilers and polyfilling to support old browsers  
+ES5 is support in all browsers eg: works in IE11
 
 #### Dynamic typing:
 
@@ -44,3 +62,4 @@ Number('Dias') // returns NaN
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
 2. Javascript can be used in the native mobile applications(ionic, react)
 3. Javascript can be used in the native desktop applications(electron)
+4. instead of multiple if else block we can include switch so we can avoid multiple conditions and switch will be much more clear.
