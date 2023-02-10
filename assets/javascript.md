@@ -23,12 +23,14 @@ ES2020/ES11
 
 code written in 1997 put in new browser will work  
 old features are never removed
+javascript supports backward compatibility
 
 #### forward compatibility:
 
 code written in ES2089 will not work in current browser.  
 In production we can use transpilers and polyfilling to support old browsers  
-ES5 is support in all browsers eg: works in IE11
+ES5 is support in all browsers eg: works in IE11  
+javascript dont support forward compatibility
 
 #### Dynamic typing:
 
