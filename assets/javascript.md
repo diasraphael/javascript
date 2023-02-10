@@ -22,7 +22,7 @@ ES2020/ES11
 #### Backward compatibility:
 
 code written in 1997 put in new browser will work  
-old features are never removed
+old features are never removed  
 javascript supports backward compatibility
 
 #### forward compatibility:
