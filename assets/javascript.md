@@ -22,6 +22,18 @@ we cannot reassign using const,using let we can reassign.
 
 var allows adding variables without adding var keyword.(notrecommended)
 
+3. Type conversion and coercion
+
+Type conversion: manually converting from one type to another.
+
+coercion: javascript converts the type automatically from one type to another.
+
+Number('Dias') // returns NaN
+
+4. falsy values
+
+0, '', undefined, null, NaN
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
