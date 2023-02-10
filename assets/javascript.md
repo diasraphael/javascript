@@ -59,6 +59,12 @@ Number('Dias') // returns NaN
 === will check the type and the value(will not perform coercion).prefer always this operator.
 == will perform coercion and checks the value
 
+#### use strict
+
+it has to be the first line of the code.  
+it forbids to introduce new errors.  
+it creates visible errors on the developer console otherwise it will fail silently.
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
