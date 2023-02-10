@@ -12,8 +12,9 @@ ES2016/ES7
 ...  
 ES2020/ES11
 
-1. Dynamic typing
-   we do not manually define type of the value, instead datatypes are determined automatically in javascript.
+1. Dynamic typing:
+
+we do not manually define type of the value, instead datatypes are determined automatically in javascript.
 
 ## Notes:
 
