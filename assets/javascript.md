@@ -97,6 +97,45 @@ const calculate = (value)=>value
 
 this keyword is not available in arrow function
 
+#### Arrays
+
+push method returns the length of the array
+
+```
+const arrayName = ['Raphael']
+const length = arrayName.push('Dias') // 2
+```
+
+pop method returns the deleted element
+
+```
+const deletedElement = arrayName.pop('Raphael') // Raphael
+```
+
+includes method returns whether the element exist in the array or not
+
+indexOf method returns index of the element where it is present
+
+#### Objects
+
+Accessing dynamic value
+
+```
+obj ={
+firstName:'Dias',
+lastName:'Raphael',
+birthYear: 1988,
+calcAge: function(){
+return currentYear - this.birthYear;
+}
+}
+
+const namekey = 'Name'
+
+console.log(obj['first'+nameKey])
+console.log(obj['calcAge']())  // calling method using bracket syntax
+```
+
 ## Notes:
 
 1. Javascript can be used in the web servers(run outside of browsers eg: nodejs)
