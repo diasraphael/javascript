@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/diasraphael/javascript/issues"
   },
-  "homepage": "https://github.com/diasraphael/javascript#readme"
+  "homepage": "https://github.com/diasraphael/javascript#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
 }
