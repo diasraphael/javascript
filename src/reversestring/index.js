@@ -1,3 +1,21 @@
+/* 
+
+pseduocode 1
+
+turn str to array using split("")
+use array reverse method to reverse the character
+join using join method
+return result
+
+pseduocode 2
+
+create empty string called reversed
+for each character in provided string
+take the character and add it to the start of reversed
+return the reversed
+
+*/
+
 function reverse(str) {
   return str
     .split('')
